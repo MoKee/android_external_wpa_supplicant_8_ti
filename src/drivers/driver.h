@@ -826,6 +826,9 @@ struct wpa_driver_capa {
 #define WPA_DRIVER_FLAGS_AP_UAPSD			0x00400000
 /* Driver supports inactivity timer in AP mode */
 #define WPA_DRIVER_FLAGS_INACTIVITY_TIMER		0x00800000
+/* Driver supports IBSS (Ad-hoc) mode */
+#define WPA_DRIVER_FLAGS_IBSS				0x02000000
+
 	unsigned int flags;
 
 	int max_scan_ssids;
